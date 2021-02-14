@@ -1,1 +1,1 @@
-Restauran hjemmeside. Skal bli 'dynamically rendered'.
+Restaurant hjemmeside. Skal bli 'dynamically rendered'.
