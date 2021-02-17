@@ -1,0 +1,42 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.header {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 42px;
+  border-bottom: 1px solid #000;
+  overflow: hidden;
+  color: #fff;
+  background: #91b77f;
+  font-size: 18px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+  width: 720px;
+  margin: auto;
+  align-items: center;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  color: #fff;
+  background: #91b77f;
+}
+
+/*# sourceMappingURL=stil.css.map */
