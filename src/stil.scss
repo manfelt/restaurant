@@ -1,5 +1,6 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
+$header-height: 42px;
 
 body {
   font: 100% $font-stack;
@@ -15,7 +16,7 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100vw;
-    height: 42px;
+    height: $header-height;
     border-bottom: 1px solid #000;
     overflow: hidden;
     color: #fff;
@@ -30,6 +31,7 @@ body {
     width: 720px;
     margin: auto;
     align-items: center;
+    margin-top: $header-height;
   }
 
   .footer {
